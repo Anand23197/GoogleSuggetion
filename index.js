@@ -6,6 +6,7 @@ let arr = str.split("\n");
 const root = new makeNode('\0');
 
 for(const item of arr ){
+  //add item into dictionary
     add(item, 0, root);
 }
 

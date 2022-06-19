@@ -1,3 +1,4 @@
+//
 function makeNode(ch) {
     this.ch = ch;
     this.isTerminal = false;
